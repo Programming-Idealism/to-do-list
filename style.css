@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    background-color: rgb(214, 210, 210);
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.todo-list-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.secondary-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#user-input {
+    font-size: 1.2rem;
+    border-radius: 25px 25px;
+    box-shadow: 2px 2px 2px rgb(158, 65, 65), -2px -2px 2px rgb(158, 65, 65);
+}
+
+.submit-btn {
+    align-self: center;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    padding: 4px 10px;
+    box-shadow: 3px 3px 3px rgb(0, 149, 255), -3px -3px 3px rgb(0, 149, 255);
+    transition: all 300ms;
+}
+
+.submit-btn:hover {
+    background-color: rgb(2, 2, 92);
+    transform: scale(1.1);
+    font-weight: 900;
+}
+
+.list-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.delete-btn {
+    background-color: red;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+    font-weight: 900;
+}
+
+.delete-btn:active {
+    background-color: rgb(112, 4, 4);
+}
